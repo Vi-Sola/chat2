@@ -1,6 +1,7 @@
 .myflex {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
     }
 
@@ -13,6 +14,7 @@ background-color: #73CCFF;
 display: flex;
     justify-content: flex-start;
     flex-direction: column;
+
     
 
 }
@@ -43,10 +45,11 @@ display: flex;
 }
  
 .flexblock{ display: inline-flex;
-    border: 1px solid red;
-    margin: 10px;
-    justify-content: space-between;
+    
+    
+    justify-content: center;
     align-items: center;
+   
     
 }
 
@@ -63,6 +66,11 @@ box-shadow: 10px 10px 30px #0F0909;
 margin-left: 10px;
 margin-right: 10px;
 margin-top: 10px; 
+display: flex;
+justify-content: center;
+align-items: center;
+
+
 
 
  }
@@ -74,10 +82,11 @@ margin-top: 10px;
     width: 500px;
     height: 100px;
     box-shadow: 10px 10px 30px #000000;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px; 
+    
     border-radius: 10px;
+    
+    
+    
    
      }
 
@@ -85,25 +94,19 @@ margin-top: 10px;
         flex-direction: column;
         justify-content: center;
         
+        
      }
 
      .name{ display: flex;
-         
-         justify-content: center;
-         align-items: flex-end;
+         justify-content: center;        
          color: black;
          font-size: large;
          font-family: Georgia, 'Times New Roman', Times, serif;
          padding: 10px;
-
-
-     }
+             }
 .message{
     display: flex;
     flex-direction: column;
-  
-}
-.name2{
-   
-    font-size: small;
+  border-left: 1px solid black;
+  padding: 10px;
 }
